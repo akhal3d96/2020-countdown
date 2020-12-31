@@ -9,8 +9,8 @@ const HOUR = 0;
 
 const localDateOptins = { year: 'numeric', month: 'long', day: 'numeric' };
 
-// const finalTime = new Date(YEAR, MONTH, DAY, HOUR);
-const finalTime = new Date(new Date().getTime() + 9000);
+const finalTime = new Date(YEAR, MONTH, DAY, HOUR);
+// const finalTime = new Date(new Date().getTime() + 9000);
 
 const hoursElement = document.getElementsByClassName('hours')[0];
 const minutesElement = document.getElementsByClassName('minutes')[0];

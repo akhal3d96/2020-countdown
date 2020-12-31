@@ -10,11 +10,6 @@
     "lint:styles": "stylelint \"./app/**/*.(scss)\" --fix",
     "lint:editor": "eclint fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
     "bootstrap": "^5.0.0-beta1"
